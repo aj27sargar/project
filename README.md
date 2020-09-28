@@ -1,4 +1,4 @@
-# Project: Catalog of Cocktails
+# Project: Amazon Clone
 
 This is an Amazon Clone built with ReactJs. A user can shop for items and proceed to checking them out. Payment system is conducted through Stripe Payment services.
 
