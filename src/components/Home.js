@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className='home'>
       <div className='home__container'>
-        <img className='home__image' src='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_45M_v2_1x._CB432458380_.jpg' alt='amazon banner' />
+        <img className='home__image' src='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_Toys_en_US_1x._CB431858161_.jpg' alt='amazon banner' />
       
         <div className='home__row'>
           <Product id='2346578'
