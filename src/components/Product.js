@@ -3,6 +3,10 @@ import './Product.css';
 import StarIcon from '@material-ui/icons/Star';
 
 function Product({ id, title, price, rating, img }) {
+  const addToBasket = () => {
+
+  }
+  
   return (
     <div className='product'>
       <div className='product__info'>
@@ -18,7 +22,7 @@ function Product({ id, title, price, rating, img }) {
         </div>
       </div>
       <img src={img} alt='product' />
-      <button>Add to Basket</button>
+      <button onClick={addToBasket}>Add to Basket</button>
     </div>
   )
 }
