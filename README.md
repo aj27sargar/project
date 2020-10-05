@@ -11,6 +11,7 @@ This is an Amazon Clone built with ReactJs. A user can shop for items and procee
 - Webpack
 - React Context API
 - React Router
+- Firebase
 
 
 ## Live Version
@@ -37,7 +38,7 @@ Then open the browser and enter this link:
 http://localhost:3000
 
 After if you want to do any changes please create new branch, after changes open pull request.
-Happy coding! 
+Happy coding!
 
 
 
