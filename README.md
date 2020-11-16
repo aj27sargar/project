@@ -41,9 +41,7 @@ After if you want to do any changes please create new branch, after changes open
 Happy coding!
 
 
-
 ## Author
-
 
 👤 **Author1**
 
