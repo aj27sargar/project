@@ -2,7 +2,9 @@
 
 This is an Amazon Clone built with ReactJs. A user can shop for items and proceed to checking them out. Payment system is conducted through Stripe Payment services.
 
-![screenshot](./src/images/homepage.png)
+![screenshot](./src/images/homepage.png)<br />
+![screenshot](./src/images/homepage2.png)<br />
+![screenshot](./src/images/homepage3.png)
 
 ## Built With
 
