@@ -20,7 +20,7 @@ This is an Amazon Clone built with ReactJs. A user can shop for items and procee
 
 ## Live Version
 
-[Live Link](live.com/)
+[Live Link](https://clone-27152.web.app/)
 
 
 ## Getting Started
