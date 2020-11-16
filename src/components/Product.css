@@ -24,6 +24,11 @@
   margin-bottom: 15px;
 }
 
+.product > img:hover {
+  transform: scale(1.2);
+  transition: transform 1s ease;
+}
+
 .product__info {
   height: 100px;
   margin-bottom: 15px;
