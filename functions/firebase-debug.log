@@ -1,0 +1,35 @@
+[debug] [2020-11-17T22:49:32.228Z] ----------------------------------------------------------------------
+[debug] [2020-11-17T22:49:32.231Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\EJOKA\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2020-11-17T22:49:32.232Z] CLI Version:   8.15.1
+[debug] [2020-11-17T22:49:32.232Z] Platform:      win32
+[debug] [2020-11-17T22:49:32.232Z] Node Version:  v12.18.0
+[debug] [2020-11-17T22:49:32.234Z] Time:          Wed Nov 18 2020 01:49:32 GMT+0300 (East Africa Time)
+[debug] [2020-11-17T22:49:32.234Z] ----------------------------------------------------------------------
+[debug] [2020-11-17T22:49:32.234Z] 
+[debug] [2020-11-17T22:49:32.244Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-17T22:49:32.245Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project clone-27152. This may result in unexpected behavior. 
+[debug] [2020-11-17T22:49:34.313Z] [hub] writing locator at C:\Users\EJOKA\AppData\Local\Temp\hub-clone-27152.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub\u001b[22m"}}
+[info] +  functions: Using node@12 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@12 from host."}}
+[debug] [2020-11-17T22:49:36.392Z] defaultcredentials: writing to file C:\Users\EJOKA\AppData\Roaming\firebase\emmanuelkamala86_gmail_com_application_default_credentials.json
+[debug] [2020-11-17T22:49:36.403Z] Setting GAC to C:\Users\EJOKA\AppData\Roaming\firebase\emmanuelkamala86_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\EJOKA\\AppData\\Roaming\\firebase\\emmanuelkamala86_gmail_com_application_default_credentials.json"}}
+[debug] [2020-11-17T22:49:38.437Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/clone-27152/webApps/-/config  
+ 
+[debug] [2020-11-17T22:49:39.640Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 17 Nov 2020 22:49:38 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4001 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4001 instead."}}
+[debug] [2020-11-17T22:49:41.816Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2020-11-17T22:49:41.816Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2020-11-17T22:49:41.816Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\EJOKA\\.cache\\firebase\\emulators\\ui-v1.2.2\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\EJOKA\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.2.2\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2020-11-17T22:49:41.969Z] Web / API server started at http://localhost:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at http://localhost:4001\n"}}
+[info] i  functions: Watching "C:\Users\EJOKA\Documents\Projects\amazon-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\EJOKA\\Documents\\Projects\\amazon-clone\\functions\" for Cloud Functions..."}}
+[debug] [2020-11-17T22:49:42.364Z] [worker-pool] addWorker(~diagnostic~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(~diagnostic~)"}}
+[debug] [2020-11-17T22:49:42.365Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key ~diagnostic~, total=1"}}
+[debug] [2020-11-17T22:49:42.366Z] [worker-pool] submitWork(triggerId=) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=)"}}
+[debug] [2020-11-17T22:49:42.367Z] [worker-~diagnostic~-cf0fb79c-8beb-4855-83d7-b784e1fc119a]: Assigning socketPath: \\?\pipe\C:\Users\EJOKA\Documents\Projects\amazon-clone\functions\4684 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-cf0fb79c-8beb-4855-83d7-b784e1fc119a]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\EJOKA\\Documents\\Projects\\amazon-clone\\functions\\4684"}}
+[debug] [2020-11-17T22:49:42.368Z] [worker-~diagnostic~-cf0fb79c-8beb-4855-83d7-b784e1fc119a]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-cf0fb79c-8beb-4855-83d7-b784e1fc119a]: BUSY"}}
