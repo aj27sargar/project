@@ -63,11 +63,6 @@ Feel free to check the [issues page](issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- The odin project
-- Microverse tips
-
 ## 📝 License
 
 This project is [MIT](lic.url) licensed.
