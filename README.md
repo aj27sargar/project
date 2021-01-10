@@ -25,7 +25,7 @@ This is an Amazon Clone built with ReactJs. A user can shop for items and procee
 
 ## Getting Started
 
-Open your terminal or text editor and use next command
+Open your terminal or text editor and use next command...
 
         git clone https://github.com/emmanuelkamala/amazon-clone.git
 
